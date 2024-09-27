@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        
+        .container {
+            display: flex;
+            padding: 10px 10px;
+            background-position: top center;
+            background-image: url(amazon.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            height: 100vh;
+            justify-content: space-between;
+           
+            
+            
+        }
+
+        .one {
+            width: 50%;
+            color: white;
+            margin-left: 20px;
+            padding: 10px 10px;
+        }
+
+        .one p {
+            font-size: 1.2em;
+            margin: auto;
+        }
+
+        .know-more {
+            padding: 15px 20px;
+            background-color: orange;
+            border: none;
+            color: black;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+
+        .one h2 {
+            font-size: 24px;
+        }
+
+        .login {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            right: 10%;
+            margin-right: 250px;
+            height:300px;
+            float: left;
+        }
+
+        h1 {
+            font-size: 65px;
+        }
+
+        .login h3 {
+
+            background-color: white;
+            color: orange;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 20px;
+            padding: 8px 60px;
+        }
+
+        .login form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login input {
+            background-color: transparent;
+            color: white;
+            margin-top: 20px;
+            padding: 5px;
+            border: none;
+            border-bottom: 2px solid orange;
+            width: 200px;
+            font-size: 16px;
+            font-weight: 500;
+            outline: none;
+            
+        }
+
+
+        .login button {
+            margin: 20px;
+            padding: 10px 70px;
+            background-color: orange;
+            border: none;
+            border-radius: 30px;
+            color: black;
+            font-size: 1 em;
+            cursor: pointer;
+        }
+
+        .login a {
+            text-decoration: none;
+        }
+
+        .eight {
+            color: orange;
+        }
+
+        .dot {
+            color: white;
+        }
+
+        .login:a {
+            color: blueviolet;
+
+        }
+
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <h1>Learn Complete<br>
+                <p class="eight">Web development</p>
+                Course
+            </h1>
+            <p>This course breaks down HTML forms into easy to understand pieces.Over<br>
+                the next few modules,you'll learn how an HTML form works and how to use<br>
+                them effectively in your projects. </p>
+            <br>
+            <button class="know-more">Know More</button>
+
+        </div>
+
+        <div class="login">
+
+            <form>
+                <h3>Login now</h3>
+                <div><input type="text" placeholder="Enter email or User Name"></div>
+                <div><input type="password" placeholder="password"></div>
+                <div><button type="submit">Login</button></div>
+                <p class="dot">Don't have account?<a href=""><br>
+                    <br>
+                    Create new account</a></p>
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

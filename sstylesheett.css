@@ -1,0 +1,107 @@
+.container{
+   width:100%;
+   text-align: center;
+   height:100%;
+   flex-wrap: wrap;
+   align-items: center;
+   border: 1px solid black;
+   flex-direction: row;
+   padding:10px 15px;
+   background-color: black;
+   border-radius: 10px;
+}
+
+.title{
+ line-height: 1cm;
+}
+. 
+h1{
+    text-align: center;
+    color:white;
+}
+
+.code{
+    color:aliceblue;
+
+}
+
+.v{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+    margin:auto;
+    
+}
+
+.v:hover{
+    color:white;
+    background-color: chocolate;
+}
+
+p{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*.i{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+   
+    
+}
+
+.i:hover{
+    color:white;
+    background-color: chocolate;
+}
+
+.d{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+}
+
+.d:hover{
+    color:white;
+    background-color: chocolate;
+}
+
+.h{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+}
+
+.h:hover{
+    color:white;
+    background-color: chocolate;
+}
+
+.y{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+}
+
+.y:hover{
+    color:white;
+    background-color: chocolate;
+}
+
+.a{
+    width:300px;
+    height:auto;
+    background-color: #222;
+    color:chocolate;
+}
+
+.a:hover{
+    color:white;
+    background-color: chocolate;
+}
